@@ -5,14 +5,15 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  color: rgba(0,0,0,.8)
+  color: rgba(0,0,0,.8);
+  text-shadow: 0 0 6px #FFFFFF, 0 0 20px #000000;
 }
 
 .wrapper{
   padding-top: 4rem;
   margin: 0 auto;
   width: 90%;
-    text-align: center;
+  text-align: center;
 }
 
 q {
@@ -27,4 +28,20 @@ q {
 .author {
   font-family: 'Crimson Text', serif;
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  
+  .wrapper {
+    padding-top: 6rem;
+  }
+  
+  q {
+    font-size: 1.6rem;
+  }
+  
+  .author {
+  padding-top: 3rem;
+}
+  
 }
