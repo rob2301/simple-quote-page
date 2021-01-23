@@ -7,11 +7,12 @@ body {
   padding: 0;
   color: rgba(0,0,0,.8);
   text-shadow: 0 0 6px #FFFFFF, 0 0 20px #000000;
+  display: flex;
 }
 
 .wrapper{
   padding-top: 4rem;
-  margin: 0 auto;
+  margin: auto;
   width: 90%;
   text-align: center;
 }
@@ -31,7 +32,6 @@ q {
 }
 
 @media (max-width: 768px) {
-  
   .wrapper {
     padding-top: 6rem;
   }
@@ -41,7 +41,19 @@ q {
   }
   
   .author {
-  padding-top: 3rem;
-}
+    padding-top: 3rem;
+    font-size: 1.3rem;
+  }
   
+}
+
+@media (min-width: 1400px) {
+  q {
+    font-size: 4rem;
+  }
+  
+  .author {
+    padding-top: 3rem;
+    font-size: 3rem;
+  }
 }
