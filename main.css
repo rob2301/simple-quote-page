@@ -5,8 +5,8 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  color: rgba(0,0,0,.8);
-  text-shadow: 0 0 6px #FFFFFF, 0 0 20px #000000;
+  color: rgba(0,0,0,.9);
+  text-shadow: 0 0 6px #FFFFFF, 0 0 10px #000000;
   display: flex;
 }
 
