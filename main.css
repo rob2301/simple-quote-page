@@ -31,6 +31,28 @@ q {
   font-size: 1.5rem;
 }
 
+ul {
+  margin-top: 3rem;
+  list-style: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: .8rem;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding: .5rem;
+  text-decoration: none;
+}
+
+
+/* Mobile version
+--------------------*/
+
 @media (max-width: 768px) {
   .wrapper {
     padding-top: 6rem;
@@ -45,7 +67,14 @@ q {
     font-size: 1.3rem;
   }
   
+  ul {
+  margin-top: 2rem;
+  font-size: .7rem;
+  }
 }
+
+/* Wildscreen version
+--------------------*/
 
 @media (min-width: 1400px) {
   q {
@@ -55,5 +84,10 @@ q {
   .author {
     padding-top: 3rem;
     font-size: 3rem;
+  }
+  
+  ul {
+    margin-top: 4rem;
+    font-size: 1.5rem;
   }
 }
